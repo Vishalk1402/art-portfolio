@@ -16,14 +16,14 @@ const Homepage = () => {
       <header className="hero-section">
         <nav className="navbar">
           <button className="nav-button" onClick={() => handleScroll(43, 43)}>Artwork</button>
-          <button className="nav-button" onClick={() => handleScroll(1130, 3200)}>Shop</button>
-          <button className="nav-button" onClick={() => handleScroll(1750, 5500)}>Blog</button>
-          <button className="nav-button" onClick={() => handleScroll(2340, 7050)}>Contact</button>
+          <button className="nav-button" onClick={() => handleScroll(1130, 3350)}>Shop</button>
+          <button className="nav-button" onClick={() => handleScroll(1750, 5700)}>Blog</button>
+          <button className="nav-button" onClick={() => handleScroll(2340, 7400)}>Contact</button>
         </nav>
         <div className="hero-content">
           <h1 className="hero-title">Welcome to My Art Portfolio</h1>
           <p>Explore my world of creativity and inspiration</p>
-          <button className="cta-button" onClick={() => handleScroll(650, 1850)}>View Gallery</button>
+          <button className="cta-button" onClick={() => handleScroll(650, 2050)}>View Gallery</button>
         </div>
       </header>
 
